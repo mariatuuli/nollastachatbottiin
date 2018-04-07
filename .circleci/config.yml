@@ -58,7 +58,7 @@ workflows:
   lunchtime:
     triggers:
       - schedule:
-          cron: "* * * * * *"
+          cron: "* * * * *"
           filters:
             branches:
               only:
